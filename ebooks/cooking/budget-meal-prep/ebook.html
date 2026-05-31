@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Meal Prep: Cook Once, Eat All Week</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #e67e22;
+            --secondary-color: #2c3e50;
+            --accent-color: #27ae60;
+            --text-color: #333;
+            --bg-color: #fff;
+            --section-bg: #f9f9f9;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f4f7f6;
+        }
+        .container {
+            background-color: var(--bg-color);
+            padding: 60px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Roboto Slab', serif;
+            color: var(--secondary-color);
+            margin-top: 1.5em;
+        }
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 0.2em;
+            color: var(--primary-color);
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 3em;
+            font-style: italic;
+        }
+        .toc {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            border-left: 5px solid var(--primary-color);
+        }
+        .toc h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+        .toc li {
+            margin-bottom: 10px;
+        }
+        .toc a {
+            text-decoration: none;
+            color: var(--secondary-color);
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        .toc a:hover {
+            color: var(--primary-color);
+        }
+        .section-header {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.8em;
+        }
+        .prep-plan {
+            background: #fef9e7;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #f9e79f;
+            margin-bottom: 30px;
+        }
+        .prep-plan h4 {
+            margin-top: 0;
+            color: #d35400;
+        }
+        .recipe {
+            background: var(--section-bg);
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            border: 1px solid #eee;
+            page-break-inside: avoid;
+        }
+        .recipe h4 {
+            margin-top: 0;
+            font-size: 1.4em;
+            color: var(--secondary-color);
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .recipe-meta {
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 40px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; padding: 0; }
+            .recipe { border: 1px solid #ddd; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Budget Meal Prep</h1>
+    <div class="subtitle">Cook Once, Eat All Week</div>
+
+    <div class="toc">
+        <h3>Table of Contents</h3>
+        <ul>
+            <li><a href="#intro">1. Introduction</a></li>
+            <li><a href="#shopping">2. Budget Shopping List</a></li>
+            <li><a href="#plan">3. The Sunday Prep Plan</a></li>
+            <li><a href="#tools">4. Essential Tools</a></li>
+            <li><a href="#recipes">5. 15 Reheat-Ready Recipes</a></li>
+            <li><a href="#storage">6. Storage & Safety</a></li>
+        </ul>
+    </div>
+
+    <div id="intro">
+        <h3 class="section-header">1. Introduction</h3>
+        <p>If you're tired of spending $15 on a mediocre lunch or wondering what's for dinner at 6:00 PM, this guide is for you. Meal prepping is for anyone who wants to reclaim their time and keep their hard-earned dollars.</p>
+        <p>By spending just 2-3 hours on a Sunday, you can ensure that you have healthy, delicious meals ready to go for the next five days.</p>
+    </div>
+
+    <div id="shopping">
+        <h3 class="section-header">2. Budget Shopping List</h3>
+        <ul>
+            <li><strong>Inventory First:</strong> Check what you have before buying more.</li>
+            <li><strong>The Staples:</strong> Stock up on grains (rice, oats, pasta), proteins (beans, eggs, frozen chicken), and hardy veggies (onions, carrots, potatoes).</li>
+            <li><strong>Seasonal Produce:</strong> Buy what's on sale. Swap ingredients based on price.</li>
+            <li><strong>Avoid Pre-Cut:</strong> Chop it yourself to save 50%.</li>
+        </ul>
+    </div>
+
+    <div id="plan" class="prep-plan">
+        <h3 class="section-header">3. The Sunday Prep Plan</h3>
+        <p><strong>Hour 0:</strong> Start your grains (rice, beans, pasta).</p>
+        <p><strong>Hour 0.5:</strong> Chop and start roasting veggies and chicken.</p>
+        <p><strong>Hour 1.0:</strong> Cook ground meats or sauces on the stovetop.</p>
+        <p><strong>Hour 2.0:</strong> Portion everything into containers.</p>
+    </div>
+
+    <div id="tools">
+        <h3 class="section-header">4. Essential Tools</h3>
+        <ul>
+            <li><strong>Reliable Containers:</strong> Airtight glass or BPA-free plastic.</li>
+            <li><strong>Sharp Chef’s Knife:</strong> Essential for efficient chopping.</li>
+            <li><strong>Large Baking Sheets:</strong> For high-volume roasting.</li>
+        </ul>
+    </div>
+
+    <div id="recipes">
+        <h3 class="section-header">5. 15 Reheat-Ready Recipes</h3>
+
+        <h4>Breakfasts</h4>
+
+        <div class="recipe">
+            <h4>1. Veggie & Feta Egg Bites</h4>
+            <div class="recipe-meta">Breakfast | Quick Reheat</div>
+            <p>Whisk 10 eggs with chopped spinach and feta. Pour into a muffin tin and bake at 350°F for 20 mins.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>2. Apple Cinnamon Baked Oatmeal</h4>
+            <div class="recipe-meta">Breakfast | Batch Cook</div>
+            <p>Mix 2 cups oats, 2 cups milk, 1 egg, chopped apples, and cinnamon. Bake in a square pan at 350°F for 35 mins.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>3. Banana Bread Overnight Oats</h4>
+            <div class="recipe-meta">Breakfast | No-Cook</div>
+            <p>Mash a banana in a jar with 1/2 cup oats, 1/2 cup milk, and a pinch of walnuts. Refrigerate overnight.</p>
+        </div>
+
+        <h4>Lunches & Dinners</h4>
+
+        <div class="recipe">
+            <h4>4. Turkey & Sweet Potato Chili</h4>
+            <div class="recipe-meta">Lunch/Dinner | Freezer Friendly</div>
+            <p>Brown ground turkey, add diced sweet potatoes, canned beans, and tomatoes. Simmer for 30 mins.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>5. Sheet Pan Chicken & Root Veggies</h4>
+            <div class="recipe-meta">Lunch/Dinner | Easy Prep</div>
+            <p>Toss chicken cubes, carrots, and potatoes in oil and rosemary. Roast at 400°F for 25 mins.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>6. Black Bean & Corn Quinoa Bowls</h4>
+            <div class="recipe-meta">Lunch/Dinner | Plant-Based</div>
+            <p>Cook quinoa. Mix with black beans, corn, salsa, and lime juice. Great cold or warm.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>7. Honey Garlic Tofu Stir-Fry</h4>
+            <div class="recipe-meta">Lunch/Dinner | Plant-Based</div>
+            <p>Sear cubed tofu, add frozen veggies and a soy/honey sauce. Serve over prepped rice.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>8. Lentil "Bolognese" Pasta</h4>
+            <div class="recipe-meta">Lunch/Dinner | Hearty</div>
+            <p>Use cooked lentils instead of meat in a standard marinara sauce. Toss with whole wheat pasta.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>9. Peanut Noodle Salad</h4>
+            <div class="recipe-meta">Lunch | Best Cold</div>
+            <p>Cold noodles tossed in peanut butter, soy sauce, and sriracha with shredded cabbage.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>10. Beef & Broccoli Skillet</h4>
+            <div class="recipe-meta">Dinner | High Protein</div>
+            <p>Sliced flank steak or ground beef sautéed with garlic, ginger, and broccoli.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>11. Mediterranean Chickpea Salad</h4>
+            <div class="recipe-meta">Lunch | No Reheat</div>
+            <p>Chickpeas, cucumbers, tomatoes, and red onion in a lemon-herb dressing. Keeps for 4 days.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>12. Salsa Verde Chicken Casserole</h4>
+            <div class="recipe-meta">Dinner | Comfort Food</div>
+            <p>Shredded chicken, brown rice, salsa verde, and a sprinkle of cheese. Bake until bubbly.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>13. Curried Chickpea & Spinach Stew</h4>
+            <div class="recipe-meta">Dinner | Flavorful</div>
+            <p>Canned chickpeas simmered in coconut milk and curry powder with fresh spinach added at the end.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>14. Pesto Pasta with Cherry Tomatoes</h4>
+            <div class="recipe-meta">Lunch | Simple</div>
+            <p>Whole grain pasta tossed in pesto with halved cherry tomatoes and white beans.</p>
+        </div>
+
+        <div class="recipe">
+            <h4>15. Turkey Burger Bowls</h4>
+            <div class="recipe-meta">Dinner | Low Carb Option</div>
+            <p>Ground turkey patties (crumbled) served over lettuce with pickles, onions, and a side of roasted potato wedges.</p>
+        </div>
+    </div>
+
+    <div id="storage">
+        <h3 class="section-header">6. Storage & Safety</h3>
+        <ul>
+            <li><strong>Cool First:</strong> Let food stop steaming before closing lids to prevent sogginess.</li>
+            <li><strong>The 4-Day Rule:</strong> Most prepped food is best eaten within 4 days. Freeze anything for later in the week.</li>
+            <li><strong>Labeling:</strong> Always mark your containers with dates.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <h3>Start Saving Today</h3>
+        <p>&copy; Daily Dollar Ebooks</p>
+    </div>
+</div>
+
+</body>
+</html>

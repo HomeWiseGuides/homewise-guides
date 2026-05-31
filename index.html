@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Dollar Ebooks | Expert Guides for $1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Daily Dollar <span>Ebooks</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#ebooks">Browse</a></li>
+                    <li><a href="#bundles">Bundles</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <span id="cart-count">0</span>
+                <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png" alt="Cart">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div id="main-content">
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <h2>Practical Life Skills for Just $1.</h2>
+                    <p>No fluff. No high price tags. Just actionable guides to help you master cooking, DIY, side hustles, and more.</p>
+                    <div class="hero-cta">
+                        <a href="#ebooks" class="btn btn-primary">Start Browsing</a>
+                        <a href="#bundles" class="btn btn-secondary">See Bundles</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="categories" class="categories">
+                <div class="container">
+                    <div class="category-filters">
+                        <button class="filter-btn active" data-category="all">All</button>
+                        <button class="filter-btn" data-category="cooking">Cooking</button>
+                        <button class="filter-btn" data-category="weight-loss">Weight Loss</button>
+                        <button class="filter-btn" data-category="diy">DIY</button>
+                        <button class="filter-btn" data-category="home-maintenance">Home Maintenance</button>
+                        <button class="filter-btn" data-category="make-money">Make Money</button>
+                        <button class="filter-btn" data-category="hair-care">Hair Care</button>
+                        <button class="filter-btn" data-category="kids">Kids Activities</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ebooks" class="ebook-grid">
+                <div class="container">
+                    <div id="ebook-container" class="grid">
+                        <!-- Ebooks will be injected here by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <section id="bundles" class="bundles">
+                <div class="container">
+                    <h2>Save More with Bundles</h2>
+                    <div class="bundle-cards">
+                        <div class="bundle-card">
+                            <h3>Starter 5-Pack</h3>
+                            <p>Pick any 5 ebooks for your collection.</p>
+                            <div class="price">$4</div>
+                            <button class="btn btn-primary buy-bundle" data-type="starter">Buy Bundle</button>
+                        </div>
+                        <div class="bundle-card featured">
+                            <div class="badge">Best Value</div>
+                            <h3>All Access Pass</h3>
+                            <p>Every ebook we have, plus everything we release this year.</p>
+                            <div class="price">$10<span>/year</span></div>
+                            <button class="btn btn-primary buy-bundle" data-type="all-access">Get All Access</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Product Detail View (Initially Hidden) -->
+    <div id="product-detail" class="container" style="display: none; padding: 60px 20px;">
+        <button id="back-to-browse" class="btn" style="margin-bottom: 30px;">&larr; Back to Browse</button>
+        <div id="detail-content"></div>
+    </div>
+
+    <footer id="about">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Daily Dollar Ebooks</h4>
+                    <p>High-quality, actionable guides delivered instantly to your inbox for just $1.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Daily Dollar Ebooks. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple Modal for Checkout (Placeholder) -->
+    <div id="checkout-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Checkout</h2>
+            <div id="cart-items"></div>
+            <div class="total">Total: <span id="cart-total">$0.00</span></div>
+            <div id="checkout-form-container">
+                <input type="email" id="checkout-email" placeholder="Email Address" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px;">
+                <div id="paypal-button-container"></div>
+            </div>
+            <form id="payment-form" style="display:none;"></form>
+        </div>
+    </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-namespace="paypal"></script>
+    <script src="ebook_data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

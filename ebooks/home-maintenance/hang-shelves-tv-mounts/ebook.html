@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang Shelves, Photos & TV Mounts Like a Pro</title>
+    <style>
+        :root {
+            --primary-color: #e67e22; /* Industrial Orange */
+            --secondary-color: #34495e; /* Steel Gray */
+            --accent-color: #d35400; /* Deep Rust */
+            --text-color: #2c3e50;
+            --bg-color: #f9f9f9;
+            --white: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--bg-color);
+        }
+        header {
+            background-color: var(--secondary-color);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-bottom: 6px solid var(--primary-color);
+        }
+        h1 { margin: 0; font-size: 2.5em; text-transform: uppercase; }
+        h2 { color: var(--accent-color); border-left: 5px solid var(--primary-color); padding-left: 15px; margin-top: 40px; }
+        h3 { color: var(--secondary-color); margin-top: 30px; }
+        .toc {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .toc ul { list-style-type: none; padding-left: 0; }
+        .toc li { margin-bottom: 10px; border-bottom: 1px dashed #eee; padding-bottom: 5px; }
+        .toc a { text-decoration: none; color: var(--secondary-color); font-weight: bold; }
+        .toc a:hover { color: var(--primary-color); }
+        .section {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 25px;
+        }
+        .tip-box {
+            background-color: #fff4e5;
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .toolkit-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .tool-item {
+            background: #f1f1f1;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .anchor-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .anchor-table th, .anchor-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .anchor-table th { background-color: var(--secondary-color); color: white; }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .section { box-shadow: none; border: 1px solid #ddd; }
+            header { border-bottom: 2px solid var(--primary-color); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hang Shelves, Photos & TV Mounts</h1>
+    <p>The Essential Guide to Secure Wall Mounting</p>
+</header>
+
+<div class="toc">
+    <h3>Table of Contents</h3>
+    <ul>
+        <li><a href="#introduction">1. Introduction</a></li>
+        <li><a href="#anatomy">2. Wall Anatomy</a></li>
+        <li><a href="#toolkit">3. The Tool Kit</a></li>
+        <li><a href="#studs">4. Stud Finding</a></li>
+        <li><a href="#anchors">5. Using Anchors</a></li>
+        <li><a href="#mounting">6. Mounting Specific Items</a></li>
+        <li><a href="#mistakes">7. Fixing Mistakes</a></li>
+    </ul>
+</div>
+
+<div class="section" id="introduction">
+    <h2>Introduction</h2>
+    <p>One of the most rewarding ways to make a house feel like a home is to put things on the walls. Whether it's a gallery of family photos, functional shelves, or a sleek wall-mounted TV, taking things off the floor opens up your space and adds personality.</p>
+    <p>This guide is designed for the absolute beginner. You'll learn how to identify your wall type, choose the right hardware, and mount anything securely—even if you've never used a drill before.</p>
+</div>
+
+<div class="section" id="anatomy">
+    <h2>Wall Anatomy</h2>
+    <p>Before you drill, know what you're hitting:</p>
+    <ul>
+        <li><strong>Drywall:</strong> Standard in modern homes. Soft, compressed gypsum. Requires anchors for any weight.</li>
+        <li><strong>Masonry:</strong> Brick or concrete. Requires a masonry drill bit and plastic sleeves.</li>
+        <li><strong>Studs:</strong> The wooden frame of the wall. <strong>Mounting to a stud is the gold standard for heavy items.</strong></li>
+    </ul>
+</div>
+
+<div class="section" id="toolkit">
+    <h2>The Tool Kit</h2>
+    <div class="toolkit-list">
+        <div class="tool-item">Power Drill</div>
+        <div class="tool-item">Bubble Level</div>
+        <div class="tool-item">Stud Finder</div>
+        <div class="tool-item">Measuring Tape</div>
+        <div class="tool-item">Hammer</div>
+        <div class="tool-item">Painter's Tape</div>
+    </div>
+</div>
+
+<div class="section" id="anchors">
+    <h2>Anchors Away!</h2>
+    <p>If you can't hit a stud, use the right anchor for the job:</p>
+    <table class="anchor-table">
+        <tr>
+            <th>Anchor Type</th>
+            <th>Best For...</th>
+            <th>Weight Capacity</th>
+        </tr>
+        <tr>
+            <td>Plastic Expansion</td>
+            <td>Light photos/frames</td>
+            <td>Up to 10 lbs</td>
+        </tr>
+        <tr>
+            <td>Self-Drilling</td>
+            <td>Small shelves/mirrors</td>
+            <td>Up to 30 lbs</td>
+        </tr>
+        <tr>
+            <td>Toggle Bolt</td>
+            <td>Floating shelves/TVs</td>
+            <td>50+ lbs</td>
+        </tr>
+    </table>
+    <div class="tip-box">
+        <strong>Pro Tip:</strong> When drilling into tile, put a piece of painter's tape over the spot to prevent the drill bit from slipping and scratching the tile surface.
+    </div>
+</div>
+
+<div class="section" id="mounting">
+    <h2>Mounting Specific Items</h2>
+    <h3>TV Wall Mounts</h3>
+    <ol>
+        <li><strong>Find Two Studs:</strong> Heavy TV mounts must be anchored into wooden studs.</li>
+        <li><strong>Height Check:</strong> Your eyes should be level with the bottom third of the screen when sitting down.</li>
+        <li><strong>Bolt It In:</strong> Use the heavy lag bolts provided with the mount.</li>
+    </ol>
+</div>
+
+<div class="section" id="mistakes">
+    <h2>Patching Mistakes</h2>
+    <p>Drilled a hole in the wrong spot? Don't panic.</p>
+    <ul>
+        <li><strong>Small Holes:</strong> Use a tiny dab of white spackle on your finger. Wipe flush with a damp rag.</li>
+        <li><strong>Medium Holes:</strong> Apply spackle with a putty knife, let dry, and sand lightly.</li>
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2024 Daily Dollar Ebooks. High Value, Zero Fluff.</p>
+</footer>
+
+</body>
+</html>
