@@ -1,0 +1,136 @@
+Converting /home/team/shared/ebooks/cooking/budget-meal-prep/ebook.html to /home/team/shared/storefront/assets/pdfs/budget-meal-prep.pdf...
+Converting /home/team/shared/ebooks/hair-care/complete-guide-natural-hair-growth/ebook.html to /home/team/shared/storefront/assets/pdfs/complete-guide-natural-hair-growth.pdf...
+Converting /home/team/shared/ebooks/kids/101-fun-kids-activities/ebook.html to /home/team/shared/storefront/assets/pdfs/101-fun-kids-activities.pdf...
+Converting /home/team/shared/ebooks/make-money/7-side-hustles-weekend/ebook.html to /home/team/shared/storefront/assets/pdfs/7-side-hustles-weekend.pdf...
+[
+    {
+        "id": "30-quick-healthy-meals-under-10",
+        "title": "30 Quick & Healthy Meals Under $10",
+        "category": "cooking",
+        "description": "30 Quick & Healthy Meals Under $10 30 Quick & Healthy Meals Under $10 Eat Well, Spend Less, Feel Great Table of Contents Introduction: The $10 Promise...",
+        "longDescription": "30 Quick & Healthy Meals Under $10 30 Quick & Healthy Meals Under $10 Eat Well, Spend Less, Feel Great Table of Contents Introduction: The $10 Promise Smart Shopping Tips Kitchen Essentials Energizing Breakfasts Power Lunches Satisfying Dinners Introduction: The $10 Promise Welcome to the first edition of Daily Dollar Ebooks! You shouldn't have to choose between your health and your wallet. This book is designed to give you 30 delicious, nutritious recipes that cost less than $10 to make for a family of 2-4, or even less per serving if you're cooking for one. Every recipe in this book uses sim...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/30-quick-healthy-meals-under-10.pdf",
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "30-quick-healthy-meals",
+        "title": "30 Quick & Healthy Meals Under $10",
+        "category": "cooking",
+        "description": "30 Quick & Healthy Meals Under $10 30 Quick & Healthy Meals Eat Well, Spend Less, Feel Great Table of Contents 1. Introduction: The $10 Promise 2. Sma...",
+        "longDescription": "30 Quick & Healthy Meals Under $10 30 Quick & Healthy Meals Eat Well, Spend Less, Feel Great Table of Contents 1. Introduction: The $10 Promise 2. Smart Shopping Tips 3. Kitchen Essentials 4. Energizing Breakfasts 5. Power Lunches 6. Satisfying Dinners 7. Budget Swaps & Substitutions Introduction: The $10 Promise Welcome to the first edition of Daily Dollar Ebooks ! You shouldn't have to choose between your health and your wallet. This book is designed to give you 30 delicious, nutritious recipes that cost less than $10 to make for a family of 2-4, or even less per serving if you're cooking fo...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/30-quick-healthy-meals.pdf",
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "budget-meal-prep",
+        "title": "Budget Meal Prep: Cook Once, Eat All Week",
+        "category": "cooking",
+        "description": "Budget Meal Prep: Cook Once, Eat All Week Budget Meal Prep Cook Once, Eat All Week Table of Contents 1. Introduction 2. Budget Shopping List 3. The Su...",
+        "longDescription": "Budget Meal Prep: Cook Once, Eat All Week Budget Meal Prep Cook Once, Eat All Week Table of Contents 1. Introduction 2. Budget Shopping List 3. The Sunday Prep Plan 4. Essential Tools 5. 15 Reheat-Ready Recipes 6. Storage & Safety 1. Introduction If you're tired of spending $15 on a mediocre lunch or wondering what's for dinner at 6:00 PM, this guide is for you. Meal prepping is for anyone who wants to reclaim their time and keep their hard-earned dollars. By spending just 2-3 hours on a Sunday, you can ensure that you have healthy, delicious meals ready to go for the next five days. 2. Budget...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/budget-meal-prep.pdf",
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "21-day-weight-loss-kickstart",
+        "title": "The 21-Day Weight Loss Kickstart",
+        "category": "health",
+        "description": "The 21-Day Weight Loss Kickstart 21-Day Kickstart Simple. Practical. Real. Contents Welcome to Your Kickstart The 21-Day Mindset Week 1: The Clean Sla...",
+        "longDescription": "The 21-Day Weight Loss Kickstart 21-Day Kickstart Simple. Practical. Real. Contents Welcome to Your Kickstart The 21-Day Mindset Week 1: The Clean Slate Week 2: Building Momentum Week 3: The Finish Line Simple Home Routine Habit Tracker Welcome to Your Kickstart Change doesn't happen overnight, but it can start in 21 days. This guide is designed for busy people who want to lose weight without complex diets or expensive gym memberships. We focus on small, sustainable habits that lead to big results. The 21-Day Mindset Progress over Perfection: If you slip up, don't quit. Just start again the ne...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/21-day-weight-loss-kickstart.pdf",
+        "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "25-diy-home-projects-save-money",
+        "title": "25 DIY Home Projects That Save Money",
+        "category": "diy",
+        "description": "25 DIY Home Projects That Save Money 25 DIY Home Projects Practical Upgrades and Repairs Anyone Can Do Contents Introduction The Basic DIY Toolbox Ene...",
+        "longDescription": "25 DIY Home Projects That Save Money 25 DIY Home Projects Practical Upgrades and Repairs Anyone Can Do Contents Introduction The Basic DIY Toolbox Energy & Water Savers Quick Fixes & Repairs Organization & Upcycling Outdoor & Garden Introduction Welcome to 25 DIY Home Projects That Save Money . Home ownership and renting can be expensive, but many common costs\u2014high utility bills, minor repairs, and clutter\u2014can be solved with basic tools and a bit of time. This book is about the $5 fix that saves $50 on your monthly bill, or the 10-minute repair that prevents a $200 plumber visit. Let\u2019s get to ...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/25-diy-home-projects-save-money.pdf",
+        "image": "https://images.unsplash.com/photo-1581578731522-7b5def47756d?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "25-diy-home-projects",
+        "title": "25 DIY Home Projects That Save Money",
+        "category": "diy",
+        "description": "25 DIY Home Projects That Save Money 25 DIY Home Projects Practical Upgrades and Repairs Anyone Can Do Contents Introduction The Basic DIY Toolbox Ene...",
+        "longDescription": "25 DIY Home Projects That Save Money 25 DIY Home Projects Practical Upgrades and Repairs Anyone Can Do Contents Introduction The Basic DIY Toolbox Energy & Water Savers Quick Fixes & Repairs Organization & Upcycling Outdoor & Garden Introduction Welcome to 25 DIY Home Projects That Save Money . Home ownership and renting can be expensive, but many common costs\u2014high utility bills, minor repairs, and clutter\u2014can be solved with basic tools and a bit of time. This book is about the $5 fix that saves $50 on your monthly bill, or the 10-minute repair that prevents a $200 plumber visit. Let\u2019s get to ...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/25-diy-home-projects.pdf",
+        "image": "https://images.unsplash.com/photo-1581578731522-7b5def47756d?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "21-day-weight-loss-kickstart",
+        "title": "The 21-Day Weight Loss Kickstart",
+        "category": "weight-loss",
+        "description": "The 21-Day Weight Loss Kickstart 21-Day Kickstart Simple. Practical. Real. Contents Welcome to Your Kickstart The 21-Day Mindset Week 1: The Clean Sla...",
+        "longDescription": "The 21-Day Weight Loss Kickstart 21-Day Kickstart Simple. Practical. Real. Contents Welcome to Your Kickstart The 21-Day Mindset Week 1: The Clean Slate Week 2: Building Momentum Week 3: The Finish Line Simple Home Routine Habit Tracker Welcome to Your Kickstart Change doesn't happen overnight, but it can start in 21 days. This guide is designed for busy people who want to lose weight without complex diets or expensive gym memberships. We focus on small, sustainable habits that lead to big results. The 21-Day Mindset Progress over Perfection: If you slip up, don't quit. Just start again the ne...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/21-day-weight-loss-kickstart.pdf",
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "7-side-hustles-this-weekend",
+        "title": "7 Side Hustles You Can Start This Weekend",
+        "category": "side-hustles",
+        "description": "7 Side Hustles You Can Start This Weekend 7 Side Hustles Start This Weekend and Boost Your Income Contents Introduction: Why a Weekend Hustle? 1. Loca...",
+        "longDescription": "7 Side Hustles You Can Start This Weekend 7 Side Hustles Start This Weekend and Boost Your Income Contents Introduction: Why a Weekend Hustle? 1. Local Reseller 2. Freelance Quick-Start 3. The Neighborhood Pet Pro 4. Digital Product Creator 5. Website & App Tester 6. The \"Weekend Reset\" Service 7. Transcriptionist Conclusion Why a Weekend Hustle? Most people think starting a business takes months of planning and thousands of dollars. It doesn't. A \"side hustle\" is simply using your extra time to solve a problem for someone else in exchange for money. This guide covers 7 hustles that require ze...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/7-side-hustles-this-weekend.pdf",
+        "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "natural-hair-growth",
+        "title": "The Complete Guide to Natural Hair Growth",
+        "category": "hair-care",
+        "description": "The Complete Guide to Natural Hair Growth Natural Hair Growth Healthy Hair from the Inside Out Contents 1. Introduction 2. Understanding Your Type 3. ...",
+        "longDescription": "The Complete Guide to Natural Hair Growth Natural Hair Growth Healthy Hair from the Inside Out Contents 1. Introduction 2. Understanding Your Type 3. The Foundation: Scalp Care 4. Step-by-Step Routine 5. Natural Remedies 6. Diet & Nutrition 7. Conclusion The Journey Natural hair growth isn't about \"miracle products\"\u2014it's about consistency, health, and moisture. Most people struggle with growth not because their hair isn't growing, but because it's breaking off at the ends faster than it can grow from the roots. This guide will teach you how to retain length and optimize your body's natural abi...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/natural-hair-growth.pdf",
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13df772f98?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "complete-guide-natural-hair-growth",
+        "title": "The Complete Guide to Natural Hair Growth",
+        "category": "hair-care",
+        "description": "The Complete Guide to Natural Hair Growth Natural Hair Growth Healthy Hair from the Inside Out Contents 1. Introduction 2. Understanding Your Type 3. ...",
+        "longDescription": "The Complete Guide to Natural Hair Growth Natural Hair Growth Healthy Hair from the Inside Out Contents 1. Introduction 2. Understanding Your Type 3. The Foundation: Scalp Care 4. Step-by-Step Routine 5. Natural Remedies 6. Diet & Nutrition 7. Conclusion The Journey Natural hair growth isn't about \"miracle products\"\u2014it's about consistency, health, and moisture. Most people struggle with growth not because their hair isn't growing, but because it's breaking off at the ends faster than it can grow from the roots. This guide will teach you how to retain length and optimize your body's natural abi...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/complete-guide-natural-hair-growth.pdf",
+        "image": "https://images.unsplash.com/photo-1522337360788-8b13df772f98?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "101-fun-things-to-do",
+        "title": "101 Fun Things to Do With Kids",
+        "category": "kids",
+        "description": "101 Fun Things to Do With Kids 101 Fun Things To Do With Kids! Pick an Adventure! \ud83c\udfe0 Indoor Fun \ud83c\udf33 Outdoor Fun \ud83c\udfa8 Creative & Crafty \ud83c\udf55 In the Kitchen \ud83d\udd2c Sc...",
+        "longDescription": "101 Fun Things to Do With Kids 101 Fun Things To Do With Kids! Pick an Adventure! \ud83c\udfe0 Indoor Fun \ud83c\udf33 Outdoor Fun \ud83c\udfa8 Creative & Crafty \ud83c\udf55 In the Kitchen \ud83d\udd2c Science & Magic Indoor Adventures 1 Build a giant living room fort. 2 Play flashlight tag in the dark. 3 Host a \"Fancy Dinner\" night. 4 Create an indoor obstacle course. 5 Have a living room campout. 6 Write and perform a mini play. 7 Host a family talent show. 8 Play \"The Floor is Lava.\" 9 Set up a bottle bowling alley. 10 Have a paper airplane contest. 11 Create a family time capsule. 12 Have an epic pillow fight. 13 Play hide and seek with silly...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/101-fun-things-to-do.pdf",
+        "image": "https://images.unsplash.com/photo-1472162014730-68d2c4dc0f61?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "101-fun-kids-activities",
+        "title": "101 Fun Things to Do With Kids",
+        "category": "kids",
+        "description": "101 Fun Things to Do With Kids 101 Fun Things To Do With Kids! Pick an Adventure! \ud83c\udfe0 Indoor Fun \ud83c\udf33 Outdoor Fun \ud83c\udfa8 Creative & Crafty \ud83c\udf55 In the Kitchen \ud83d\udd2c Sc...",
+        "longDescription": "101 Fun Things to Do With Kids 101 Fun Things To Do With Kids! Pick an Adventure! \ud83c\udfe0 Indoor Fun \ud83c\udf33 Outdoor Fun \ud83c\udfa8 Creative & Crafty \ud83c\udf55 In the Kitchen \ud83d\udd2c Science & Magic Indoor Adventures 1 Build a giant living room fort. 2 Play flashlight tag in the dark. 3 Host a \"Fancy Dinner\" night. 4 Create an indoor obstacle course. 5 Have a living room campout. 6 Write and perform a mini play. 7 Host a family talent show. 8 Play \"The Floor is Lava.\" 9 Set up a bottle bowling alley. 10 Have a paper airplane contest. 11 Create a family time capsule. 12 Have an epic pillow fight. 13 Play hide and seek with silly...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/101-fun-kids-activities.pdf",
+        "image": "https://images.unsplash.com/photo-1472162014730-68d2c4dc0f61?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "7-side-hustles-weekend",
+        "title": "7 Side Hustles You Can Start This Weekend",
+        "category": "make-money",
+        "description": "7 Side Hustles You Can Start This Weekend 7 Side Hustles Start This Weekend and Boost Your Income Contents Introduction: Why a Weekend Hustle? 1. Loca...",
+        "longDescription": "7 Side Hustles You Can Start This Weekend 7 Side Hustles Start This Weekend and Boost Your Income Contents Introduction: Why a Weekend Hustle? 1. Local Reseller 2. Freelance Quick-Start 3. The Neighborhood Pet Pro 4. Digital Product Creator 5. Website & App Tester 6. The \"Weekend Reset\" Service 7. Transcriptionist Conclusion Why a Weekend Hustle? Most people think starting a business takes months of planning and thousands of dollars. It doesn't. A \"side hustle\" is simply using your extra time to solve a problem for someone else in exchange for money. This guide covers 7 hustles that require ze...",
+        "price": 1.0,
+        "pdfPath": "assets/pdfs/7-side-hustles-weekend.pdf",
+        "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=400"
+    }
+]
